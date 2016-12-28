@@ -1,4 +1,5 @@
 var hi = require('../lib/lib');
+var shortid = require('shortid')
 
 module.exports = function (context, req) {
 
@@ -18,7 +19,7 @@ module.exports = function (context, req) {
     //     };
     // }
     context.res = {
-      body: 'hello' + hi()
+      body: 'hello' + hi() + shortid.generate()
     }
 
     context.done();
