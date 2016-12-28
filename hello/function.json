@@ -7,6 +7,11 @@
             "authLevel": "function",
             "methods": [ "GET" ],
             "route": "hello"
+        },
+        {
+          "type": "http",
+          "name": "res",
+          "direction": "out"
         }
     ]
 }
