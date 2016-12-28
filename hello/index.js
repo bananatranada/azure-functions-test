@@ -19,7 +19,7 @@ module.exports = function (context, req) {
     //     };
     // }
     context.res = {
-      body: 'hello' + hi() + shortid.generate()
+      body: 'hello' + hi() + shortid.generate() + "WOAH"
     }
 
     context.done();
