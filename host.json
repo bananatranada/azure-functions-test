@@ -1,3 +1,7 @@
 {
-  "functions": ["hello"]
+  "functions": [
+    "hello", 
+    "functions/yo/get",
+    "functions/yo/list"
+  ]
 }
