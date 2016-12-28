@@ -1,0 +1,12 @@
+{
+    "bindings":[
+        {
+            "name": "req",
+            "type": "httpTrigger",
+            "direction": "in",
+            "authLevel": "function",
+            "methods": [ "GET" ],
+            "route": "hello"
+        }
+    ]
+}
