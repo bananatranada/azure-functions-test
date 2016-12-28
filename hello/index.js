@@ -1,3 +1,5 @@
+var hi = require('../lib/lib');
+
 module.exports = function (context, req) {
 
     // var category = context.bindingData.category;
@@ -16,7 +18,7 @@ module.exports = function (context, req) {
     //     };
     // }
     context.res = {
-      body: 'hello'
+      body: 'hello' + hi()
     }
 
     context.done();
